@@ -1,8 +1,6 @@
 @extends('layout')
 
-@section('title')
-    Autores
-@endsection
+@section('title') Autores @endsection
 
 @section('breadcrumb')
 
@@ -43,7 +41,7 @@
                 </thead>
                 <tbody>
                     @foreach ($autores as $autor)
-                        
+
                           <tr>
                             <td><a href="{{route('autor.show', $autor)}}">{{$autor->nombre}}</a></td>
                             <td>{{$autor->apellido1}}</td>
@@ -57,7 +55,7 @@
                               </form>
                             </td>
                           </tr>
-                        
+
                     @endforeach
                 </tbody>
                 <tfoot>

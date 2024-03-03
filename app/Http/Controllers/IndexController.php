@@ -6,6 +6,7 @@ use App\Models\Autor;
 use App\Models\Publicacion;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
 
 class IndexController extends Controller
 {
@@ -31,14 +32,13 @@ class IndexController extends Controller
             }
         }
 
-       
+
 
         $estadisticas = [
             'autores' => $autores,
             'publicaciones' => $publicaciones,
             'materias' => $materias,
             'autorpublicaciones' => $autorpublicaciones,
-            
         ];
 
         return view('welcome', $estadisticas);
@@ -49,11 +49,6 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
-
     /**
      * Store a newly created resource in storage.
      *

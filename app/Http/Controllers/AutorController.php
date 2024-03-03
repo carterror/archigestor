@@ -10,6 +10,7 @@ class AutorController extends Controller
 {
     public function index()
     {
+
         $autores = Autor::orderBy('nombre')->paginate(10);
 
         return view('autor.index', compact('autores'));
@@ -37,6 +38,7 @@ class AutorController extends Controller
 
     public function store(Request $request)
     {
+        return true;
         $request->validate([
             'nombre' => 'required',
             'apellido1' => 'required',
@@ -47,10 +49,9 @@ class AutorController extends Controller
         if ($repite > 0) {
             return back()->with("message", "El autor ya existe")->with("type", "danger");
         }
-        
 
         $autor = new Autor();
-        
+
         $autor->nombre = $request->nombre;
         $autor->apellido1 = $request->apellido1;
         $autor->apellido2 = $request->apellido2;
@@ -63,7 +64,7 @@ class AutorController extends Controller
 
     public function edit(Autor $autor)
     {
-        
+
         return view('autor.edit', compact('autor'));
     }
 

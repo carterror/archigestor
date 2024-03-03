@@ -6,6 +6,7 @@ use App\Http\Controllers\Materia;
 use App\Http\Controllers\PublicacionController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Autor;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,12 +21,12 @@ use App\Models\Autor;
 
 Route::get('/', [IndexController::class, 'index'])->name('inicio');
 
-Route::resource('autor', AutorController::class);
 
 Route::post('publicacion/buscar', [PublicacionController::class, 'buscar'])->name('publicacion.buscar');
 Route::get('publicacion/ordenar/{orden}', [PublicacionController::class, 'order'])->name('publicacion.ordenar');
 Route::resource('publicacion', PublicacionController::class);
 Route::resource('materia', Materia::class);
+Route::resource('autor', AutorController::class);
 
 Route::get('asd', [IndexController::class, 'asd']);
 
