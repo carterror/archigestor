@@ -23,7 +23,7 @@
         <!-- /.card-header -->
         <!-- form start -->
         <form role="form" action="{{route('autor.store')}}" method="POST">
-         @csrf
+
           <div class="card-body">
             <div class="form-group">
               <label for="nombre">Nombres</label>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <!-- /.card-body -->
-    
+
           <div class="card-footer">
             <button type="submit" class="btn btn-primary">Crear</button>
           </div>

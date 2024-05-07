@@ -1,8 +1,6 @@
 @extends('layout')
 
-@section('title')
-    Inicio
-@endsection
+@section('title') Inicio @endsection
 
 @section('breadcrumb')
 

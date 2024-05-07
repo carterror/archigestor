@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Archivo Mujeres | @yield('title')</title>
+  <title>Archivo Mujeres |@yield('title')</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <style>
     /*body {
       background: url('img/banner.jpg') no-repeat center center fixed;
-      background-size: cover; 
+      background-size: cover;
     }*/
   </style>
 </head>
@@ -58,7 +58,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container">
         @include('validate')
-        @section('content') 
+        @section('content')
         @show
 
         <!-- /.row -->
@@ -85,7 +85,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <script src="{{ asset('plugins/select2/js/select2.min.js') }}"></script>
 
-<script> 
+<script>
 
   $('.alert').slideDown();
   setTimeout(function(){ $('.alert').slideUp();}, 10000);
@@ -102,7 +102,7 @@ $(function () {
       theme: 'bootstrap4'
     });
   });
-  
+
 </script>
 
 </body>
