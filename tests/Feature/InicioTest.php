@@ -21,7 +21,7 @@ class InicioTest extends TestCase
 
         // Actions
 
-        $response = $this->get('/');
+        $response = $this->get($url);
 
         // Response
 

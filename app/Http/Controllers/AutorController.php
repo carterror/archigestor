@@ -38,7 +38,6 @@ class AutorController extends Controller
 
     public function store(Request $request)
     {
-        return true;
         $request->validate([
             'nombre' => 'required',
             'apellido1' => 'required',
