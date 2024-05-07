@@ -13,6 +13,11 @@ class ExampleTest extends TestCase
      */
     public function test_example()
     {
-        $this->assertTrue(true);
+        $autor = \App\Models\Autor::create([
+            'nombre' => 'Nombre1',
+            'apellido1' => 'Apellido1',
+            'apellido2' => 'Apellido2',
+            'no' => 50
+        ]);
     }
 }
