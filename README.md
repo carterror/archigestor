@@ -1,62 +1,19 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Archigestor Revita Mujeres
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+La revista Mujeres, un tesoro de historias y voces femeninas a través del tiempo, ha encontrado un nuevo hogar en el mundo digital. Gracias a la creación de una base de datos, este patrimonio cultural invaluable ahora está protegido y accesible para las generaciones presentes y futuras.
 
-## About Laravel
+Esta iniciativa ha rescatado del deterioro y la mala manipulación las páginas de décadas pasadas, preservando así un legado de conocimiento, lucha y empoderamiento femenino. La base de datos no solo conserva estos documentos históricos, sino que también los hace accesibles para la investigación, la educación y la inspiración.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Con solo unas pocas pulsaciones, ahora es posible buscar por autor, título, año o cualquier otra palabra clave, facilitando la exploración de este rico archivo. La información contenida en la revista Mujeres puede ser utilizada para comprender mejor el pasado, celebrar los logros de las mujeres y trazar un camino hacia un futuro más equitativo.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Este proyecto es un ejemplo inspirador de cómo la tecnología puede usarse para proteger y difundir el patrimonio cultural. La base de datos de la revista Mujeres es un faro que ilumina el camino hacia un futuro donde las historias de las mujeres nunca se desvanezcan en el olvido.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Además, este proyecto ha permitido:
 
-## Learning Laravel
+- Facilitar el acceso a la información para investigadores y estudiantes.
+- Promover la difusión del conocimiento sobre la historia de las mujeres.
+- Generar conciencia sobre la importancia de preservar el patrimonio cultural.
+- Fomentar el debate y la reflexión sobre temas relevantes para las mujeres.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+La base de datos de la revista Mujeres es un recurso invaluable para cualquier persona interesada en la historia, la cultura y los derechos de las mujeres. Es un testimonio del poder de la tecnología para preservar el pasado, inspirar el presente y construir un futuro mejor.
